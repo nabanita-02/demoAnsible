@@ -2,5 +2,5 @@
 - hosts : localhost
   become: true
   tasks :
-   - command : echo "Hello world!" >> hello.txt
+   - command : echo "Hello world!" >> /root/hello.txt
 
