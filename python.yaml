@@ -2,6 +2,5 @@
 - hosts : localhost
   become: true
   tasks :
-   - name : save a text file
    - command : echo "Hello world!" >> hello.txt
 
